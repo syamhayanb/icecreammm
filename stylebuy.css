@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: #000000;
+    text-align: center;
+}
+h1 {
+    color: #ffffff;
+    margin: 20px;
+    text-align: center;
+    font-family: 'water';
+    font-weight: normal;
+    
+}
+img {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+.buy {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.buy a{
+    font-size: 25px;
+    font-family: 'magic';
+    color: #000000;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.back a{
+    font-size: 25px;
+    font-family: 'magic';
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.buy a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border: #ffffff 1px solid;
+    transition: 0.5s;
+}
+.back a:hover {
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+#footer {
+    margin-top: 50px;
+    text-align: center;
+    height: 70px;
+    background-color: #ffffff;
+}
+#footer p {
+    padding-top: 30px;
+    font-family: 'magic';
+}
+
+@media (max-width:685px) {
+    img {
+        width: 80%;
+    }
+}
+
+
+@font-face {
+    font-family: water;
+    src: url(asset/Water\ Galon.ttf);
+}
+@font-face {
+    font-family: magic;
+    src: url(asset/Magic\ Dreams.ttf);
+}
